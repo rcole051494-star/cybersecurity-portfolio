@@ -1,16 +1,18 @@
 <div align="center">
 
+![Cybersecurity shield and network banner](assets/cybersecurity-banner.png)
+
 # Reagan Cole
 
 ### Cybersecurity Portfolio
 
-**Merit America Cybersecurity Learner**
+Merit America learner building practical skills in security analysis, risk management, and network defense.
 
-Learning to investigate security problems, document findings, and communicate clearly.
+[![Google Cybersecurity Certificate](https://img.shields.io/badge/Google_Cybersecurity-Courses_1–3_Completed-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.coursera.org/professional-certificates/google-cybersecurity)
+![Merit America](https://img.shields.io/badge/Merit_America-Learner-0B7285?style=for-the-badge)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reagancole)
 
-[LinkedIn](https://www.linkedin.com/in/reagancole)
-
-[About](#about-me) · [Professional Background](#professional-background) · [Coursework](#completed-coursework) · [Projects](#project-showcase) · [Learning Journey](#learning-journey)
+[About](#about-me) · [Skills](#developing-skills) · [Coursework](#completed-coursework) · [Projects](#featured-project) · [Experience](#professional-background)
 
 </div>
 
@@ -18,64 +20,80 @@ Learning to investigate security problems, document findings, and communicate cl
 
 ## About Me
 
-My name is Reagan Cole, and I am currently enrolled in the Merit America cybersecurity program. I have completed Courses 1–3 of the Google Cybersecurity Professional Certificate on Coursera, building a foundation in security principles, risk management, and network security.
+I am a Merit America cybersecurity learner currently completing the Google Cybersecurity Professional Certificate on Coursera. I have finished the first three courses, building a foundation in security principles, risk management, and network security.
 
-My professional background includes tax support, hotel night audit, and residential leasing. In these roles, I handled confidential personal and financial information, reconciled records, documented incidents and decisions, and explained unfamiliar requirements in plain language. I am bringing that same care, judgment, and attention to detail to cybersecurity.
+My background in tax support, hotel night audit, and residential leasing taught me to handle confidential information carefully, investigate discrepancies, document decisions, and explain complex requirements clearly. I am now applying those strengths to cybersecurity.
 
-Through my project write-ups, I aim to explain the problem, show my approach, and reflect on what I learned. As my training progresses, I will add examples that demonstrate both technical skills and clear communication.
+> **Career focus:** Grow into an entry-level cybersecurity role where careful analysis, clear documentation, and sound judgment help protect people, data, and systems.
 
-## Professional Background
+## Developing Skills
 
-| Experience | Transferable skills for cybersecurity |
+![Risk Management](https://img.shields.io/badge/Risk_Management-164E63?style=flat-square)
+![Security Auditing](https://img.shields.io/badge/Security_Auditing-155E75?style=flat-square)
+![Network Security](https://img.shields.io/badge/Network_Security-0E7490?style=flat-square)
+![Security Controls](https://img.shields.io/badge/Security_Controls-0891B2?style=flat-square)
+![NIST Frameworks](https://img.shields.io/badge/NIST_Frameworks-06B6D4?style=flat-square)
+![SIEM Concepts](https://img.shields.io/badge/SIEM_Concepts-6366F1?style=flat-square)
+![Incident Response](https://img.shields.io/badge/Incident_Response-7C3AED?style=flat-square)
+![Technical Writing](https://img.shields.io/badge/Technical_Writing-475569?style=flat-square)
+
+## Featured Project
+
+### 🛡️ Botium Toys Security Audit
+
+> **Google Cybersecurity Certificate portfolio activity**
+>
+> Reviewed risk, security controls, and compliance considerations for a fictional organization.
+
+| Project detail | Result |
 | --- | --- |
-| Local Tax Expert, Intuit TurboTax | Protected confidential personal and financial information, documented client interactions accurately, and worked across several systems while assisting clients |
-| Night Audit Manager, Bellevue Hotel | Reconciled daily transactions, investigated account discrepancies independently, and maintained written incident and handoff records |
-| Lead Leasing Consultant, Camden Property Trust | Verified income and asset documentation, maintained accurate resident and payment records, and resolved concerns calmly |
+| Course | Play It Safe: Manage Security Risks |
+| Focus | Security audit, risk assessment, controls, and compliance |
+| Evidence | Coursera completion screenshot |
+| Grade | **100%** |
 
-Additional education and training include an Associate's Degree in Music Performance from the Community College of Philadelphia, AI for Customer Care from AI Business School, and Salesforce Administrator certification preparation in progress.
+**[View the full project write-up and evidence →](projects/botium-toys-security-audit/README.md)**
 
 ## Completed Coursework
 
-**Google Cybersecurity Professional Certificate — in progress**  
-**Learning platform:** Coursera · **Program:** Merit America  
-**Completed:** Courses 1–3
+### Google Cybersecurity Professional Certificate
 
-| Course | Status | Topics covered |
-| --- | --- | --- |
-| 1. [Foundations of Cybersecurity](https://www.coursera.org/learn/foundations-of-cybersecurity/) | Completed | Security analyst responsibilities, the CISSP security domains, security frameworks and controls, security ethics, and common security tools |
-| 2. [Play It Safe: Manage Security Risks](https://www.coursera.org/learn/manage-security-risks) | Completed | Threats, risks, and vulnerabilities; the CIA triad and NIST frameworks; security audits; SIEM data; and incident response playbooks |
-| 3. [Connect and Protect: Networks and Network Security](https://www.coursera.org/learn/networks-and-network-security/) | Completed | Network architecture, TCP/IP and network protocols, firewalls and VPNs, network attacks, cloud security, and system hardening |
+**Status:** In progress · **Completed:** Courses 1–3 · **Platform:** Coursera
 
-Course titles and topic summaries follow the [official Google Cybersecurity curriculum on Coursera](https://www.coursera.org/professional-certificates/google-cybersecurity). These topics represent my completed coursework; project write-ups will provide evidence of how I apply them.
+| Course | Key topics | Status |
+| --- | --- | :---: |
+| [Foundations of Cybersecurity](https://www.coursera.org/learn/foundations-of-cybersecurity/) | Analyst responsibilities, security domains, frameworks, controls, ethics, and common tools | ✅ |
+| [Play It Safe: Manage Security Risks](https://www.coursera.org/learn/manage-security-risks) | Threats, risks, vulnerabilities, the CIA triad, NIST frameworks, audits, SIEM concepts, and playbooks | ✅ |
+| [Connect and Protect: Networks and Network Security](https://www.coursera.org/learn/networks-and-network-security/) | Network architecture, TCP/IP, protocols, firewalls, VPNs, attacks, cloud security, and hardening | ✅ |
 
-## Project Showcase
+Course titles and topics follow the [official Google Cybersecurity curriculum](https://www.coursera.org/professional-certificates/google-cybersecurity).
 
-### Botium Toys Security Audit
+## Professional Background
 
-[Read the project](projects/botium-toys-security-audit/README.md)
-
-A completed Google Cybersecurity Certificate portfolio activity involving risk review, security control evaluation, and compliance considerations for the fictional Botium Toys scenario. Coursera recorded a grade of 100%.
-
-Each featured project will include:
-
-- **The problem:** What the exercise asked me to investigate or improve.
-- **My approach:** The steps I took and why I chose them.
-- **Evidence:** Relevant screenshots, queries, commands, or reports.
-- **The outcome:** What I found, what the evidence supports, and any limitations.
-- **Reflection:** What I learned and what I would improve next time.
-
-## Learning Journey
-
-| Stage | Progress |
+| Experience | Strengths I bring to cybersecurity |
 | --- | --- |
-| Cybersecurity education | Currently enrolled in Merit America |
-| Google Cybersecurity coursework | Courses 1–3 completed on Coursera |
-| Full Google Cybersecurity Professional Certificate | In progress |
-| Portfolio development | First project documented; additional coursework projects will be added as evidence becomes available |
-| Project evidence | Botium Toys security audit completion evidence added |
+| **Local Tax Expert** · Intuit TurboTax | Protected confidential personal and financial information, documented client interactions, and worked across multiple systems |
+| **Night Audit Manager** · Bellevue Hotel | Reconciled transactions, investigated discrepancies independently, and maintained incident and handoff records |
+| **Lead Leasing Consultant** · Camden Property Trust | Verified income and asset documentation, maintained accurate records, and resolved concerns calmly |
 
-Skills and tools will be listed alongside the projects that demonstrate them.
+Additional education and training include an Associate's Degree in Music Performance from the Community College of Philadelphia, AI for Customer Care from AI Business School, and Salesforce Administrator certification preparation in progress.
+
+## Portfolio Roadmap
+
+- [x] Create portfolio structure
+- [x] Document the Botium Toys security audit
+- [x] Add completion evidence
+- [ ] Add networking and system-hardening projects
+- [ ] Add Linux, SQL, and detection-and-response projects as coursework progresses
 
 ---
 
-*This portfolio will grow with my training and hands-on experience.*
+<div align="center">
+
+### Thanks for visiting
+
+This portfolio will grow as I complete more hands-on cybersecurity work.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/reagancole) · [Return to the top](#reagan-cole)
+
+</div>

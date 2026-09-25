@@ -80,6 +80,18 @@ nav a:hover, nav a:focus-visible { color: var(--cyan); }
 .score strong { display: block; color: var(--cyan); font-size: 4.4rem; line-height: 1; letter-spacing: -.06em; }
 .score sup { font-size: 1.5rem; }
 
+.upcoming-projects { display: grid; grid-template-columns: .65fr 1.35fr; gap: 72px; border-top: 1px solid var(--line); }
+.upcoming-heading h2 { margin-top: 18px; }
+.upcoming-heading p { max-width: 400px; color: var(--muted); }
+.upcoming-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.upcoming-card { position: relative; display: flex; min-height: 270px; flex-direction: column; padding: 26px; background: var(--white); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.upcoming-card::after { content: ""; position: absolute; right: -45px; bottom: -55px; width: 130px; height: 130px; border: 1px solid rgba(22,168,162,.16); border-radius: 50%; box-shadow: 0 0 0 28px rgba(22,168,162,.035); }
+.upcoming-icon { display: grid; place-items: center; width: 48px; height: 48px; color: var(--teal); background: #e7f7f5; border-radius: 11px; font: 800 .75rem ui-monospace, monospace; letter-spacing: .04em; }
+.coming-soon { position: absolute; top: 26px; right: 26px; padding: 5px 9px; color: #536774; background: #eef2f4; border-radius: 999px; font-size: .68rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.upcoming-card h3 { margin: 28px 0 8px; font-size: 1.28rem; letter-spacing: -.025em; }
+.upcoming-card p { margin: 0; color: var(--muted); font-size: .9rem; }
+.project-sequence { position: relative; z-index: 1; margin-top: auto; padding-top: 22px; color: var(--teal); font: 700 .72rem ui-monospace, monospace; text-transform: uppercase; }
+
 .coursework { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; border-bottom: 1px solid var(--line); }
 .coursework-heading p { color: var(--muted); }
 .coursework-heading h2 { margin-top: 18px; }
@@ -109,7 +121,7 @@ footer h2 { max-width: 720px; margin: 15px 0 0; font-size: clamp(2rem, 4vw, 4rem
 @media (max-width: 900px) {
   nav a:not(.nav-cta) { display: none; }
   .hero { min-height: 720px; }
-  .intro, .skills, .coursework, .experience { grid-template-columns: 1fr; gap: 28px; }
+  .intro, .skills, .upcoming-projects, .coursework, .experience { grid-template-columns: 1fr; gap: 28px; }
   .focus-note { max-width: 520px; }
   .project-card { grid-template-columns: 44px 1fr; }
   .score { grid-column: 2; border-left: 0; border-top: 1px solid rgba(255,255,255,.15); }
@@ -128,6 +140,7 @@ footer h2 { max-width: 720px; margin: 15px 0 0; font-size: clamp(2rem, 4vw, 4rem
   .status-card { right: 16px; bottom: 24px; width: calc(100% - 32px); }
   .section { padding: 78px 0; }
   .skill-grid { grid-template-columns: 1fr; }
+  .upcoming-grid { grid-template-columns: 1fr; }
   .project-card { grid-template-columns: 1fr; gap: 18px; padding: 30px 24px; }
   .score { grid-column: 1; }
   .course-list li { grid-template-columns: 36px 1fr; }

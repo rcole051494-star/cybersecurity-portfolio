@@ -54,6 +54,15 @@ My background in tax support, hotel night audit, and residential leasing taught 
 
 **[View the full project write-up and evidence →](projects/botium-toys-security-audit/README.md)**
 
+## Upcoming Projects
+
+| Project section | Status |
+| --- | :---: |
+| TryHackMe Journal | **Coming Soon** |
+| Incident Handler's Journal | **Coming Soon** |
+| Vulnerable System Analysis | **Coming Soon** |
+| SQL Query | **Coming Soon** |
+
 ## Completed Coursework
 
 ### Google Cybersecurity Professional Certificate
@@ -83,8 +92,10 @@ Additional education and training include an Associate's Degree in Music Perform
 - [x] Create portfolio structure
 - [x] Document the Botium Toys security audit
 - [x] Add completion evidence
-- [ ] Add networking and system-hardening projects
-- [ ] Add Linux, SQL, and detection-and-response projects as coursework progresses
+- [ ] Complete the TryHackMe Journal
+- [ ] Complete the Incident Handler's Journal
+- [ ] Complete the Vulnerable System Analysis
+- [ ] Complete the SQL Query project
 
 ---
 

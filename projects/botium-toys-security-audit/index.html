@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reagan Cole's Botium Toys security audit project write-up.">
+  <meta name="theme-color" content="#071523">
+  <title>Botium Toys Security Audit | Reagan Cole</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .case-hero { padding: 150px max(24px, calc((100% - 980px) / 2)) 90px; color: white; background: #071523; }
+    .case-hero .back { color: #9deaf3; font-size: .85rem; font-weight: 750; text-decoration: none; }
+    .case-hero h1 { max-width: 850px; margin: 30px 0 20px; font-size: clamp(3rem, 7vw, 6.5rem); line-height: .94; letter-spacing: -.06em; }
+    .case-hero p { max-width: 680px; color: #b9cbd4; font-size: 1.12rem; }
+    .case-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+    .case-meta span { padding: 7px 12px; color: #bdeff4; border: 1px solid rgba(66,216,237,.25); border-radius: 999px; font-size: .78rem; }
+    .case-body { width: min(880px, calc(100% - 40px)); margin: 0 auto; padding: 90px 0; }
+    .case-body section { margin-bottom: 70px; }
+    .case-body h2 { margin: 0 0 20px; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -.04em; }
+    .case-body p, .case-body li { color: #536774; }
+    .process { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0; list-style: none; counter-reset: process; }
+    .process li { padding: 24px; background: white; border: 1px solid #d9e1e5; border-radius: 12px; counter-increment: process; }
+    .process li::before { content: "0" counter(process); display: block; margin-bottom: 12px; color: #16a8a2; font: 800 .78rem ui-monospace, monospace; }
+    .evidence { padding: 28px; background: white; border: 1px solid #d9e1e5; border-radius: 18px; box-shadow: 0 18px 45px rgba(7,21,35,.08); }
+    .evidence img { display: block; width: 100%; border: 1px solid #d9e1e5; border-radius: 10px; }
+    .evidence p { margin-bottom: 0; font-size: .88rem; }
+    .result { display: grid; grid-template-columns: 160px 1fr; gap: 30px; padding: 34px; color: white; background: #10283a; border-radius: 18px; }
+    .result strong { color: #42d8ed; font-size: 4rem; line-height: 1; }
+    .result p { margin: 0; color: #b9cbd4; }
+    @media (max-width: 650px) { .process { grid-template-columns: 1fr; } .result { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#case-main">Skip to content</a>
+  <main id="case-main">
+    <header class="case-hero">
+      <a class="back" href="../../">← Back to portfolio</a>
+      <h1>Botium Toys<br>Security Audit</h1>
+      <p>A risk and controls review completed as part of the Google Cybersecurity Professional Certificate.</p>
+      <div class="case-meta">
+        <span>Security auditing</span><span>Risk assessment</span><span>Control evaluation</span><span>Compliance awareness</span>
+      </div>
+    </header>
+
+    <div class="case-body">
+      <section>
+        <p class="section-label">Overview</p>
+        <h2>Turning a fictional scenario into a structured security review.</h2>
+        <p>Botium Toys and its business environment were supplied as a course scenario. My role was to complete the graded audit activity and apply the frameworks, controls, and risk-management concepts taught in Course 2: Play It Safe—Manage Security Risks.</p>
+      </section>
+
+      <section>
+        <p class="section-label">Audit process</p>
+        <h2>How I approached the activity</h2>
+        <ol class="process">
+          <li>Reviewed the supplied audit scope, goals, assets, and risk information.</li>
+          <li>Evaluated administrative, technical, and physical security controls.</li>
+          <li>Considered whether the control environment addressed applicable compliance needs.</li>
+          <li>Identified control gaps and areas where the organization could reduce risk.</li>
+        </ol>
+      </section>
+
+      <section>
+        <p class="section-label">Completion evidence</p>
+        <h2>Verified course result</h2>
+        <figure class="evidence">
+          <img src="images/completion-100-percent.png" alt="Coursera result showing a 100 percent grade for the security audit portfolio activity">
+          <figcaption><p>Coursera records a 100% grade for “Portfolio Activity: Conduct a security audit.”</p></figcaption>
+        </figure>
+      </section>
+
+      <section class="result">
+        <strong>100%</strong>
+        <div><h2>Completed successfully</h2><p>My original audit worksheet is no longer available, so this case study does not recreate specific findings. The evidence supports completion of the graded activity, while this summary describes the process and skills assessed.</p></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

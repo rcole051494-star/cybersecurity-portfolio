@@ -63,7 +63,8 @@ nav a:hover, nav a:focus-visible { color: var(--cyan); }
 .skill-grid span::before { content: "◆"; margin-right: 10px; color: var(--teal); font-size: .55rem; vertical-align: 2px; }
 
 .project-section { border-top: 1px solid var(--line); }
-.project-card { position: relative; display: grid; grid-template-columns: 80px 1fr 220px; gap: 40px; margin-top: 28px; padding: 54px; color: var(--white); background: var(--ink-soft); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.project-stack { display: grid; gap: 22px; margin-top: 28px; }
+.project-card { position: relative; display: grid; grid-template-columns: 80px 1fr 220px; gap: 40px; padding: 54px; color: var(--white); background: var(--ink-soft); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
 .project-card::after { content: ""; position: absolute; right: -100px; top: -170px; width: 430px; height: 430px; border: 1px solid rgba(66,216,237,.2); border-radius: 50%; box-shadow: 0 0 0 70px rgba(66,216,237,.025), 0 0 0 140px rgba(66,216,237,.02); }
 .project-number { color: #79909d; font: 700 1rem ui-monospace, monospace; }
 .project-main { position: relative; z-index: 1; }
@@ -79,6 +80,7 @@ nav a:hover, nav a:focus-visible { color: var(--cyan); }
 .score span, .score small { display: block; color: #8ca2ae; }
 .score strong { display: block; color: var(--cyan); font-size: 4.4rem; line-height: 1; letter-spacing: -.06em; }
 .score sup { font-size: 1.5rem; }
+.project-status strong { margin: 8px 0; font-size: 1.65rem; letter-spacing: -.03em; }
 
 .upcoming-projects { display: grid; grid-template-columns: .65fr 1.35fr; gap: 72px; border-top: 1px solid var(--line); }
 .upcoming-heading h2 { margin-top: 18px; }

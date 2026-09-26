@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reagan Cole's OS hardening security incident report project.">
+  <meta name="theme-color" content="#071523">
+  <title>OS Hardening Security Incident Report | Reagan Cole</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .case-hero { padding: 150px max(24px, calc((100% - 980px) / 2)) 90px; color: white; background: #071523; }
+    .case-hero .back { color: #9deaf3; font-size: .85rem; font-weight: 750; text-decoration: none; }
+    .case-hero h1 { max-width: 900px; margin: 30px 0 20px; font-size: clamp(3rem, 7vw, 6.2rem); line-height: .94; letter-spacing: -.06em; }
+    .case-hero p { max-width: 720px; color: #b9cbd4; font-size: 1.12rem; }
+    .case-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+    .case-meta span { padding: 7px 12px; color: #bdeff4; border: 1px solid rgba(66,216,237,.25); border-radius: 999px; font-size: .78rem; }
+    .case-body { width: min(880px, calc(100% - 40px)); margin: 0 auto; padding: 90px 0; }
+    .case-body section { margin-bottom: 70px; }
+    .case-body h2 { margin: 0 0 20px; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -.04em; }
+    .case-body p, .case-body li { color: #536774; }
+    .findings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 0; list-style: none; }
+    .findings li { padding: 24px; background: white; border: 1px solid #d9e1e5; border-radius: 12px; }
+    .findings strong { display: block; margin-bottom: 8px; color: #16a8a2; }
+    .report { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; padding: 34px; color: white; background: #10283a; border-radius: 18px; }
+    .report h2 { margin-bottom: 10px; }
+    .report p { margin: 0; color: #b9cbd4; }
+    .report-link { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; color: #071523; background: #42d8ed; border-radius: 10px; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    @media (max-width: 700px) { .findings { grid-template-columns: 1fr; } .report { grid-template-columns: 1fr; } .report-link { justify-content: center; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#case-main">Skip to content</a>
+  <main id="case-main">
+    <header class="case-hero">
+      <a class="back" href="../../">← Back to portfolio</a>
+      <h1>OS Hardening<br>Security Incident Report</h1>
+      <p>An incident analysis completed in Course 3 of the Google Cybersecurity Professional Certificate.</p>
+      <div class="case-meta">
+        <span>Network protocols</span><span>Incident analysis</span><span>OS hardening</span><span>Technical writing</span>
+      </div>
+    </header>
+
+    <div class="case-body">
+      <section>
+        <p class="section-label">Overview</p>
+        <h2>Analyzing a website compromise and recommending a practical defense.</h2>
+        <p>In this course scenario, a threat actor obtained administrative access to a web server through a brute-force attack, modified the website, and redirected visitors to a malicious domain. I reviewed the supplied network information and documented the incident in a structured report.</p>
+      </section>
+
+      <section>
+        <p class="section-label">Key findings</p>
+        <h2>What the investigation established</h2>
+        <ul class="findings">
+          <li><strong>Protocols</strong>HTTP delivered the malicious file, DNS resolved the domain names, and IPv4 carried packets between devices.</li>
+          <li><strong>Attack</strong>The attacker gained access to the administrative account through a brute-force attack against an unchanged default password.</li>
+          <li><strong>Hardening method</strong>Limiting failed login attempts and locking the account would restrict repeated password guesses.</li>
+        </ul>
+      </section>
+
+      <section>
+        <p class="section-label">Skills demonstrated</p>
+        <h2>From network evidence to a clear incident record</h2>
+        <p>This activity demonstrates my ability to distinguish the roles of HTTP, DNS, and IPv4; summarize an attack vector and its impact; document investigation steps; and connect a security-hardening method to the weakness it addresses.</p>
+      </section>
+
+      <section class="report">
+        <div>
+          <h2>Read the completed report</h2>
+          <p>The original two-page course submission is included as project evidence.</p>
+        </div>
+        <a class="report-link" href="security-incident-report.pdf">Open report (PDF) ↗</a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

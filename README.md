@@ -37,7 +37,7 @@ My background in tax support, hotel night audit, and residential leasing taught 
 ![Incident Response](https://img.shields.io/badge/Incident_Response-7C3AED?style=flat-square)
 ![Technical Writing](https://img.shields.io/badge/Technical_Writing-475569?style=flat-square)
 
-## Featured Project
+## Completed Projects
 
 ### 🛡️ Botium Toys Security Audit
 
@@ -53,6 +53,21 @@ My background in tax support, hotel night audit, and residential leasing taught 
 | Grade | **100%** |
 
 **[View the full project write-up and evidence →](projects/botium-toys-security-audit/README.md)**
+
+### 🌐 OS Hardening Security Incident Report
+
+> **Google Cybersecurity Certificate course activity**
+>
+> Analyzed a compromised website, identified the protocols involved, documented the investigation, and recommended an account-lockout policy to reduce brute-force attacks.
+
+| Project detail | Result |
+| --- | --- |
+| Course | Connect and Protect: Networks and Network Security |
+| Focus | HTTP, DNS, IPv4, incident analysis, and OS hardening |
+| Evidence | Completed security incident report |
+| Status | **Completed** |
+
+**[View the full project write-up and report →](projects/os-hardening-incident-report/)**
 
 ## Upcoming Projects
 
@@ -92,6 +107,7 @@ Additional education and training include an Associate's Degree in Music Perform
 - [x] Create portfolio structure
 - [x] Document the Botium Toys security audit
 - [x] Add completion evidence
+- [x] Add the OS hardening security incident report
 - [ ] Complete the TryHackMe Journal
 - [ ] Complete the Incident Handler's Journal
 - [ ] Complete the Vulnerable System Analysis

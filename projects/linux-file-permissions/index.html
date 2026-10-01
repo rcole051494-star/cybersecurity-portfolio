@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reagan Cole's Linux file permissions project.">
+  <meta name="theme-color" content="#071523">
+  <title>Linux File Permissions | Reagan Cole</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .case-hero { padding: 150px max(24px, calc((100% - 980px) / 2)) 90px; color: white; background: #071523; }
+    .case-hero .back { color: #9deaf3; font-size: .85rem; font-weight: 750; text-decoration: none; }
+    .case-hero h1 { max-width: 900px; margin: 30px 0 20px; font-size: clamp(3rem, 7vw, 6.2rem); line-height: .94; letter-spacing: -.06em; }
+    .case-hero p { max-width: 720px; color: #b9cbd4; font-size: 1.12rem; }
+    .case-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+    .case-meta span { padding: 7px 12px; color: #bdeff4; border: 1px solid rgba(66,216,237,.25); border-radius: 999px; font-size: .78rem; }
+    .case-body { width: min(880px, calc(100% - 40px)); margin: 0 auto; padding: 90px 0; }
+    .case-body section { margin-bottom: 70px; }
+    .case-body h2 { margin: 0 0 20px; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -.04em; }
+    .case-body p, .case-body li { color: #536774; }
+    .findings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 0; list-style: none; }
+    .findings li { padding: 24px; background: white; border: 1px solid #d9e1e5; border-radius: 12px; }
+    .findings strong { display: block; margin-bottom: 8px; color: #16a8a2; }
+    .report { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; padding: 34px; color: white; background: #10283a; border-radius: 18px; }
+    .report h2 { margin-bottom: 10px; }
+    .report p { margin: 0; color: #b9cbd4; }
+    .report-link { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; color: #071523; background: #42d8ed; border-radius: 10px; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    @media (max-width: 700px) { .findings { grid-template-columns: 1fr; } .report { grid-template-columns: 1fr; } .report-link { justify-content: center; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#case-main">Skip to content</a>
+  <main id="case-main">
+    <header class="case-hero">
+      <a class="back" href="../../">← Back to portfolio</a>
+      <h1>Linux File<br>Permissions</h1>
+      <p>A portfolio activity completed in Course 4 of the Google Cybersecurity Professional Certificate.</p>
+      <div class="case-meta"><span>Linux command line</span><span>File permissions</span><span>Access control</span><span>Documentation</span></div>
+    </header>
+
+    <div class="case-body">
+      <section>
+        <p class="section-label">Overview</p>
+        <h2>Using Linux commands to review and adjust access.</h2>
+        <p>Using Linux commands, I navigated to a specific directory, confirmed the current permissions on a set of files, and changed them to reflect policy requirements.</p>
+      </section>
+      <section>
+        <p class="section-label">What I did</p>
+        <h2>Key steps</h2>
+        <ul class="findings">
+          <li><strong>Inspect</strong>Used <code>ls -la</code> to list all items, including hidden files, in long format so permissions were visible.</li>
+          <li><strong>Read</strong>Interpreted the permissions string: user, group, and other sets, each with read, write, and execute. A leading <code>d</code> marks a directory.</li>
+          <li><strong>Modify</strong>Used <code>chmod</code> to add or remove permissions for files, a hidden file (<code>.project_x.txt</code>), and directories.</li>
+        </ul>
+      </section>
+      <section>
+        <p class="section-label">Summary</p>
+        <h2>Outcome</h2>
+        <p>I used <code>chmod</code> to modify permissions on files and directories for the user, group, and other sets, adding and removing read, write, and execute permissions, and verified each change with <code>ls -la</code>.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

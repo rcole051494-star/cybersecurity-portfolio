@@ -69,6 +69,21 @@ My background in tax support, hotel night audit, and residential leasing taught 
 
 **[View the full project write-up and report →](projects/os-hardening-incident-report/)**
 
+### 🔎 Apply Filters to SQL Queries
+
+> **Google Cybersecurity Certificate portfolio activity**
+>
+> Used MariaDB queries to investigate login attempts and retrieve employee records for security-related analysis and system updates.
+
+| Project detail | Result |
+| --- | --- |
+| Focus | SQL filtering for security investigations |
+| Techniques | `AND`, `OR`, `NOT`, `LIKE`, `%`, dates, times, and Boolean values |
+| Evidence | Six completed queries and the original activity document |
+| Status | **Completed** |
+
+**[View the full project write-up and activity document →](projects/sql-query-filters/)**
+
 ## Upcoming Projects
 
 | Project section | Status |
@@ -76,7 +91,6 @@ My background in tax support, hotel night audit, and residential leasing taught 
 | TryHackMe Journal | **Coming Soon** |
 | Incident Handler's Journal | **Coming Soon** |
 | Vulnerable System Analysis | **Coming Soon** |
-| SQL Query | **Coming Soon** |
 
 ## Completed Coursework
 
@@ -108,10 +122,10 @@ Additional education and training include an Associate's Degree in Music Perform
 - [x] Document the Botium Toys security audit
 - [x] Add completion evidence
 - [x] Add the OS hardening security incident report
+- [x] Complete the SQL query filtering activity
 - [ ] Complete the TryHackMe Journal
 - [ ] Complete the Incident Handler's Journal
 - [ ] Complete the Vulnerable System Analysis
-- [ ] Complete the SQL Query project
 
 ---
 

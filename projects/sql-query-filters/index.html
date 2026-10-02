@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reagan Cole's SQL filtering project for security investigations.">
+  <meta name="theme-color" content="#071523">
+  <title>Apply Filters to SQL Queries | Reagan Cole</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .case-hero { padding: 150px max(24px, calc((100% - 980px) / 2)) 90px; color: white; background: #071523; }
+    .case-hero .back { color: #9deaf3; font-size: .85rem; font-weight: 750; text-decoration: none; }
+    .case-hero h1 { max-width: 900px; margin: 30px 0 20px; font-size: clamp(3rem, 7vw, 6.2rem); line-height: .94; letter-spacing: -.06em; }
+    .case-hero p { max-width: 720px; color: #b9cbd4; font-size: 1.12rem; }
+    .case-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+    .case-meta span { padding: 7px 12px; color: #bdeff4; border: 1px solid rgba(66,216,237,.25); border-radius: 999px; font-size: .78rem; }
+    .case-body { width: min(940px, calc(100% - 40px)); margin: 0 auto; padding: 90px 0; }
+    .case-body section { margin-bottom: 70px; }
+    .case-body h2 { margin: 0 0 20px; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -.04em; }
+    .case-body p { color: #536774; }
+    .query-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .query-card { padding: 24px; background: white; border: 1px solid #d9e1e5; border-radius: 14px; }
+    .query-card h3 { margin: 0 0 14px; font-size: 1.05rem; }
+    .query-card p { margin: 12px 0 0; font-size: .88rem; }
+    pre { margin: 0; padding: 18px; overflow-x: auto; color: #c8f7ed; background: #071523; border-radius: 10px; font: 500 .78rem/1.65 ui-monospace, SFMono-Regular, Consolas, monospace; }
+    code { font-family: inherit; }
+    .report { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; padding: 34px; color: white; background: #10283a; border-radius: 18px; }
+    .report h2 { margin-bottom: 10px; }
+    .report p { margin: 0; color: #b9cbd4; }
+    .report-link { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; color: #071523; background: #42d8ed; border-radius: 10px; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    @media (max-width: 720px) { .query-grid, .report { grid-template-columns: 1fr; } .report-link { justify-content: center; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#case-main">Skip to content</a>
+  <main id="case-main">
+    <header class="case-hero">
+      <a class="back" href="../../">← Back to portfolio</a>
+      <h1>Apply Filters<br>to SQL Queries</h1>
+      <p>Using SQL filters to investigate security events and identify systems or employees that require action.</p>
+      <div class="case-meta">
+        <span>SQL</span><span>MariaDB</span><span>Security investigation</span><span>Data filtering</span>
+      </div>
+    </header>
+
+    <div class="case-body">
+      <section>
+        <p class="section-label">Scenario and purpose</p>
+        <h2>Finding useful security information in large datasets.</h2>
+        <p>Security analysts use SQL to isolate events that may indicate malicious activity and to identify systems that need updates. In this activity, I filtered login records by time, date, success status, and country, then filtered employee records by department to support security-related tasks.</p>
+      </section>
+
+      <section>
+        <p class="section-label">Completed queries</p>
+        <h2>Six filters applied in MariaDB</h2>
+        <div class="query-grid">
+          <article class="query-card">
+            <h3>After-hours failed logins</h3>
+            <pre><code>SELECT *
+FROM log_in_attempts
+WHERE login_time &gt; '18:00'
+  AND success = 0;</code></pre>
+            <p>Combined a time condition and Boolean value with <strong>AND</strong>.</p>
+          </article>
+          <article class="query-card">
+            <h3>Logins on two dates</h3>
+            <pre><code>SELECT *
+FROM log_in_attempts
+WHERE login_date = '2022-05-09'
+   OR login_date = '2022-05-08';</code></pre>
+            <p>Used <strong>OR</strong> to retrieve activity from either specified date.</p>
+          </article>
+          <article class="query-card">
+            <h3>Logins outside Mexico</h3>
+            <pre><code>SELECT *
+FROM log_in_attempts
+WHERE NOT country LIKE 'MEX%';</code></pre>
+            <p>Combined <strong>NOT</strong>, <strong>LIKE</strong>, and the <strong>%</strong> wildcard.</p>
+          </article>
+          <article class="query-card">
+            <h3>Marketing employees</h3>
+            <pre><code>SELECT *
+FROM employees
+WHERE department = 'Marketing';</code></pre>
+            <p>Retrieved records that exactly matched one department.</p>
+          </article>
+          <article class="query-card">
+            <h3>Finance or Sales employees</h3>
+            <pre><code>SELECT *
+FROM employees
+WHERE department = 'Finance'
+   OR department = 'Sales';</code></pre>
+            <p>Used <strong>OR</strong> to return either of two department values.</p>
+          </article>
+          <article class="query-card">
+            <h3>Employees outside IT</h3>
+            <pre><code>SELECT *
+FROM employees
+WHERE NOT department =
+  'Information Technology';</code></pre>
+            <p>Excluded the Information Technology department with <strong>NOT</strong>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <p class="section-label">Skills demonstrated</p>
+        <h2>Translating investigation questions into precise filters.</h2>
+        <p>This activity demonstrates my ability to select data from security-related tables, combine conditions with logical operators, match text patterns with wildcards, filter dates and times, and explain how each query supports an investigation or operational security task.</p>
+      </section>
+
+      <section class="report">
+        <div>
+          <h2>View the activity document</h2>
+          <p>The original Word document includes my explanations and screenshots of all six MariaDB queries.</p>
+        </div>
+        <a class="report-link" href="apply-filters-to-sql-queries.docx">Download DOCX ↗</a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
